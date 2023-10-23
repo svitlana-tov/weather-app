@@ -66,3 +66,8 @@ form {
 .following-degree {
   font-size: 38px;
 }
+#footer {
+  position: relative;
+  left: 375px;
+  color: #fff;
+}
