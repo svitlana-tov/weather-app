@@ -1,0 +1,68 @@
+body {
+  background: radial-gradient(
+    780px at 37.8% 100.3%,
+    rgb(19, 55, 115) 2.2%,
+    rgb(32, 7, 80) 20.2%,
+    rgb(27, 88, 111) 58.6%,
+    rgb(115, 88, 44) 75%,
+    rgb(99, 19, 90) 89.6%,
+    rgb(12, 51, 76) 96.1%
+  );
+}
+
+h1,
+h2 {
+  font-size: 85px;
+  color: #fff;
+}
+form {
+  display: block;
+  text-align: center;
+}
+
+.units {
+  font-size: 35px;
+  position: relative;
+  top: -32px;
+}
+#current-location {
+  border: 4px solid #fff;
+  border-radius: 20px;
+  display: block;
+  margin: 10px auto;
+}
+#celsius {
+  text-decoration: none;
+}
+#fahrenheit {
+  text-decoration: none;
+}
+
+.todays-condition {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.todays-data {
+  font-size: 20px;
+  color: #fff;
+}
+.container {
+  color: #fff;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 40px;
+  border: 5px solid #fff;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.following-days {
+  font-size: 22px;
+  font-weight: bold;
+}
+.following-emoji {
+  font-size: 38px;
+}
+.following-degree {
+  font-size: 38px;
+}
